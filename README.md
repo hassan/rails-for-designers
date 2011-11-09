@@ -43,4 +43,4 @@ introduce asset pipeline, etc.
 ## Participation
 
 If you're interested in contributing, or knowing when the tutorial is ready
-to test drive, or anythgin else, you can contact me at hassan AT webtuitive DOT com .
+to test drive, or anything else, you can contact me at hassan AT webtuitive DOT com .

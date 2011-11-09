@@ -3,11 +3,12 @@
 <head>
   <title>Rails for Designers</title>
   <%= stylesheet_link_tag    "common" %>
-  <%# javascript_include_tag "application" %>
 </head>
 <body>
+  <% unless request.path.eql? "/" %><h1>Rails for Designers</h1><% end %>
+  
+  <%= yield %>
 
-<%= yield %>
-
+  <%= render :partial => 'layouts/footer' %>
 </body>
 </html>
