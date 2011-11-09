@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  section_order: 1
+  content: 
+
+two:
+  section_order: 1
+  content: 

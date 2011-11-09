@@ -1,0 +1,14 @@
+
+<% form_for(@section) do |f| %>
+
+  <%= f.label :section_order %>
+  <%= f.text_field :section_order %>
+  
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <%= f.label :content %>
+  <%= f.text_area :content %>
+  
+  <%= submit_tag %>
+<% end %>  

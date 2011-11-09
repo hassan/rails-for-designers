@@ -1,0 +1,15 @@
+<h2>Sections</h2>
+<table>
+<% @sections.each do |section| %>
+  <tr>
+    <td><%= section.section_order %></td>
+    <td><%= link_to section.title, edit_section_path(section) %></td>
+    <td><%= section.content.split(/\S/).length %> words</td>
+    <td><%= link_to "Destroy", section, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<div>
+<%= link_to "add a section", new_section_path %>
+</div>

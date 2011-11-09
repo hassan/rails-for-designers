@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  padding: 2em 5em;
+}
+h3, div {
+  margin-left: 400px;
+  width: 35em;
+}
+nav {
+  float: left;
+  width: 360px;
+  overflow: hidden;
+}
+label, input, textarea {
+  display: block;
+}
+label {
+  font-weight: bold;
+}
+input {
+  font-size: 12pt;
+  width: 30em;
+  line-height: 1.5em;
+}
+textarea {
+  font-size: 12pt;
+  width: 60em;
+  height: 30em;
+}
